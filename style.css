@@ -142,14 +142,14 @@
 }
 .rettangolo_red{
   height: 575px;
-  width: 355px;
+  width: 356px;
   background-color: #F08080;
   border: 1px black dashed ;
 
 }
 .rettangolo_lightgreen{
   height: 575px;
-  width: 205px;
+  width: 210px;
   background-color: #20B2AA;
   border: 1px white dashed ;
 
@@ -165,6 +165,34 @@ hr{
   color: #C9C9C9;
 }
 /* inizio ottavo scenario*/
+.ottavo_scenario{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 110px;
+  background-color:#23272A ;
+  
+}
+.rettangolo_footer{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 1195px;
+  background-color: #7FFFD4;
+
+}
+.rettangoli_piccoli_footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 66px;
+  margin: 22px 0;
+  background-color: #FFB6C1;
+  border: 1px black dashed ;
+
+}
+
 
 /*fine ottavo scenario*/
 
