@@ -33,16 +33,16 @@
    padding-left: 12px;
    padding-right: 12px;
    align-self: center;
-   
+
    
  }
  .lati_navbar .destra{
-   color: aqua;
+   text-align: end;
+
+   /*problema da vedere il perchè non seleziona il testo sulla destra*/
  
 }
-
- 
- .centro_navbar{
+  .centro_navbar{
    width: 720px;
    border: 1px black dashed ;
    padding-top: 10px;
@@ -63,5 +63,9 @@
    height: 500px;
  }
  .rettangolo_rosa{
-   background-color: pink;
+   background-color: #EE82EE;
+   height: 400px;
+   width: 900px;
+   margin: 50px 500px ;
  }
+ /*fine secondo scenario*/
