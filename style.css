@@ -133,5 +133,38 @@
 }
 
 /* fine sesto scenario*/
+/* inizio settimo scenario*/
+.settimo_scenario{
+  display: flex;
+  justify-content: center;
+  background-color: #23272A;
+  height: 630px;
+}
+.rettangolo_red{
+  height: 575px;
+  width: 355px;
+  background-color: #F08080;
+  border: 1px black dashed ;
 
+}
+.rettangolo_lightgreen{
+  height: 575px;
+  width: 205px;
+  background-color: #20B2AA;
+  border: 1px white dashed ;
+
+}
+.conteiner_scenario7{
+  display: flex;
+  margin-bottom: 45px;
+  margin-top: 10px;
+
+}
+/* fine settimo scenario*/
+hr{
+  color: #C9C9C9;
+}
+/* inizio ottavo scenario*/
+
+/*fine ottavo scenario*/
 
