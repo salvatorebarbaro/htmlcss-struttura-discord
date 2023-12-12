@@ -95,9 +95,10 @@
 
  }
 
- .terzo_scenario .rettangolo_blu , .terzo_scenario .rettangolo_lightpink , .quinto_scenario .rettangolo_blu , .quinto_scenario .rettangolo_lightpink  {
+ .rettangolo_blu , .rettangolo_lightpink{
   margin: 50px 0 ;
   border: 1px black dashed ;
+
  }
 
 
@@ -108,17 +109,29 @@
   justify-content: center;
   flex-direction: row-reverse;
   height: 600px;
-  background-color:#D3D3D3;
-
- }
- .quarto_scenario .rettangolo_blu , .quarto_scenario .rettangolo_lightpink {
-  margin: 50px 0 ;
-  border: 1px black dashed ;
- }
+  background-color:#D3D3D3;}
 /*fine quart scenario*/
 /*inizio quinto scenario*/
  /*i comandi di questo scenario sono stati accorpati insieme al terzo scenario per comodita e per riparmiare codice*/
 
 /*fine quinto scenario*/
+/* inizio sesto scenario*/
+.sesto_scenario{
+  display: flex;
+  justify-content: center;
+  background-color: #D3D3D3;
+  height: 990px;
+
+
+}
+.rettangolo_verde{background-color: #228B22;
+  width: 1195px ;
+  height: 895px; ;
+  margin: 52px auto;
+  border: 1px black dashed ;
+
+}
+
+/* fine sesto scenario*/
 
 
