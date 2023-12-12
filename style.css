@@ -1,0 +1,66 @@
+/* regole di reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* fine regole di reset */
+
+ /*regola per testare  */
+ body > *{
+   border: 1px red solid;
+   background-color:#8EAFBA
+ }
+ /* fine regole per testare */
+/*navbar inizio*/
+ .conteiner_navbar{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+   
+    
+
+ }
+ .lati_navbar{
+   width: 240px;
+   border: 2px black dashed ;
+   padding-top: 10px;
+   padding-bottom:10px;
+   padding-left: 12px;
+   padding-right: 12px;
+   align-self: center;
+   
+ }
+ .lati_navbar .destra{
+   color: aqua;
+ 
+}
+
+ 
+ .centro_navbar{
+   width: 720px;
+   border: 1px black dashed ;
+   padding-top: 10px;
+   padding-bottom:10px;
+   padding-left: 12px;
+   padding-right: 12px;
+   text-align: center;
+   
+ }
+ 
+ .conteiner_navbar > * {
+    background-color: #AA831F;
+ }
+ /*navbar fine*/
+ /*inizio secondo scenario*/
+ .contenitore_quadrato_rosa{
+   background-color: #00008B;
+   height: 500px;
+ }
+ .rettangolo_rosa{
+   background-color: pink;
+ }
