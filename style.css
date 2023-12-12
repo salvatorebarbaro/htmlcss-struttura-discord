@@ -36,8 +36,9 @@
 
    
  }
- .lati_navbar .destra{
-   text-align: end;
+  .destra{
+   text-align: right;
+   /* 1)errore che commettevo quello di inseririe .lati_navbar .destra e non prendeva nulla*/
 
    /*problema da vedere il perchè non seleziona il testo sulla destra*/
  
@@ -69,3 +70,27 @@
    margin: 50px 500px ;
  }
  /*fine secondo scenario*/
+ /*inizio terzo scenario*/
+ .terzo_scenario{
+  display: flex;
+  justify-content: center;
+  
+  height: 600px;
+  background-color:#FFFFFF;
+
+ }
+ .rettangolo_blu{
+  width:712px;
+  height:500px ;
+  background-color: #1E90FF;
+
+ }
+ .rettangolo_lightpink{
+  width: 475px;
+  height:500px ;
+  background-color: #FFC0CB;
+
+ }
+
+
+ /*fine terzo scenario*/
