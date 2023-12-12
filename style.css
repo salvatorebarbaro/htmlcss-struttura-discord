@@ -74,7 +74,7 @@
  }
  /*fine secondo scenario*/
  /*inizio terzo scenario*/
- .terzo_scenario{
+ .terzo_scenario , .quinto_scenario{
   display: flex;
   justify-content: center;
   
@@ -95,7 +95,7 @@
 
  }
 
- .terzo_scenario .rettangolo_blu , .terzo_scenario .rettangolo_lightpink {
+ .terzo_scenario .rettangolo_blu , .terzo_scenario .rettangolo_lightpink , .quinto_scenario .rettangolo_blu , .quinto_scenario .rettangolo_lightpink  {
   margin: 50px 0 ;
   border: 1px black dashed ;
  }
@@ -116,3 +116,9 @@
   border: 1px black dashed ;
  }
 /*fine quart scenario*/
+/*inizio quinto scenario*/
+ /*i comandi di questo scenario sono stati accorpati insieme al terzo scenario per comodita e per riparmiare codice*/
+
+/*fine quinto scenario*/
+
+
