@@ -40,7 +40,7 @@
    text-align: right;
    /* 1)errore che commettevo quello di inseririe .lati_navbar .destra e non prendeva nulla*/
 
-   /*problema da vedere il perchè non seleziona il testo sulla destra*/
+   
  
 }
   .centro_navbar{
@@ -62,12 +62,15 @@
  .contenitore_quadrato_rosa{
    background-color: #00008B;
    height: 500px;
+   
+
  }
  .rettangolo_rosa{
    background-color: #EE82EE;
    height: 400px;
    width: 900px;
    margin: 50px 500px ;
+   border: 1px black dashed ;
  }
  /*fine secondo scenario*/
  /*inizio terzo scenario*/
@@ -92,5 +95,24 @@
 
  }
 
+ .terzo_scenario .rettangolo_blu , .terzo_scenario .rettangolo_lightpink {
+  margin: 50px 0 ;
+  border: 1px black dashed ;
+ }
+
 
  /*fine terzo scenario*/
+ /*inizio quarto scenario*/
+ .quarto_scenario{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  height: 600px;
+  background-color:#D3D3D3;
+
+ }
+ .quarto_scenario .rettangolo_blu , .quarto_scenario .rettangolo_lightpink {
+  margin: 50px 0 ;
+  border: 1px black dashed ;
+ }
+/*fine quart scenario*/
