@@ -38,6 +38,7 @@
  }
   .destra{
    text-align: right;
+   
    /* 1)errore che commettevo quello di inseririe .lati_navbar .destra e non prendeva nulla*/
 
    
@@ -195,5 +196,5 @@ hr{
 }
 /*fine ottavo scenario*/
 
-/*domande da fare situate nel codice col seguente simbolo:1) e 2)*/
-
+/*domande da fare situate nel codice col seguente simbolo:1) e 2), 3)consigli su come migliorare il codice perchè sia più performante , 4) come migliorare il fatto di aver messo i quadrati di diemnsioni fisse ma che siano automatiche*/
+/*
