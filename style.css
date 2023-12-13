@@ -7,12 +7,12 @@
 }
 /* fine regole di reset */
 
- /*regola per testare  */
+ /*regola per testare  
  body > *{
    border: 1px red solid;
    background-color:#8EAFBA
  }
- /* fine regole per testare */
+  fine regole per testare */
 /*navbar inizio*/
  .conteiner_navbar{
     display: flex;
@@ -69,7 +69,8 @@
    background-color: #EE82EE;
    height: 400px;
    width: 900px;
-   margin: 50px 500px ;
+   /*2)controllare anche il perchè non si sistema adeguatamente il margin*/
+   margin: 50px 500px;
    border: 1px black dashed ;
  }
  /*fine secondo scenario*/
@@ -192,7 +193,7 @@ hr{
   border: 1px black dashed ;
 
 }
-
-
 /*fine ottavo scenario*/
+
+/*domande da fare situate nel codice col seguente simbolo:1) e 2)*/
 
